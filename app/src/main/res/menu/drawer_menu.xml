@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/grp1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+
+            android:title="Home" />
+
+        <item
+            android:id="@+id/add_expense"
+
+            android:title="Add Expense" />
+
+        <item
+            android:id="@+id/viewexpense"
+
+            android:title="View Expense" />
+
+        <item
+            android:id="@+id/add_income"
+
+            android:title="Add income" />
+
+        <item
+            android:id="@+id/viewincome"
+
+            android:title="View income"/>
+
+        <item
+            android:id="@+id/sixth"
+
+            android:title="Download Statement" />
+
+        <item
+            android:id="@+id/passchange"
+
+            android:title="Change Password" />
+
+
+    </group>
+    <group
+        android:id="@+id/grp2"
+        android:checkableBehavior="single">
+
+        <item
+
+            android:id="@+id/logout"
+
+            android:title="Logout" />
+
+        <item
+            android:id="@+id/nineth"
+
+            android:title="Share App" />
+    </group>
+
+
+
+</menu>
