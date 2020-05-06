@@ -40,6 +40,7 @@
         android:layout_marginTop="40dp"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:inputType="phone||textEmailAddress"
         android:hint="Email or phone number"></EditText>
 
     <EditText
@@ -48,6 +49,7 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/rectangle_shape"
         android:layout_width="match_parent"
+        android:inputType="numberPassword||textPassword"
         android:layout_height="50dp"
         android:hint="Password"></EditText>
 
