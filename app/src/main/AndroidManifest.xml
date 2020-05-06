@@ -22,19 +22,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="package_navigationdrawer.Activity_NewsInfo"></activity>
-        <activity android:name="package_apicall.MainActivity"></activity>
-        <activity android:name="package_navigationdrawer.Activity_NavigationView">
+        <activity android:name="package_mvp.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="package_navigationdrawer.Activity_NewsInfo" />
+        <activity android:name="package_apicall.MainActivity" />
+        <activity android:name="package_navigationdrawer.Activity_NavigationView">
+
+        </activity>
         <activity android:name=".pacakage_permission.Activity_MultiplePermissions" />
-        <activity android:name=".pacakage_permission.Activity_Location"></activity>
+        <activity android:name=".pacakage_permission.Activity_Location" />
         <activity android:name=".package_contentprovider.Activity_AccessContact" />
-        <activity android:name=".package_broadcast_task.Activity_Sender"></activity>
+        <activity android:name=".package_broadcast_task.Activity_Sender" />
         <activity android:name=".package_broadcast_task.Activity_Receiver" />
         <activity android:name=".package_broadcastreceiver.Activity_Task2" />
         <activity android:name=".package_broadcastreceiver.Activity_Task" />
